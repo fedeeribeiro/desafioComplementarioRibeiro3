@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+    background-color: #efefef;
+}
+
+header{
+    background-color: #364;
+    color: white;
+    padding: 3rem 2rem;
+}
+
+header h1{
+    font-family: 'Audiowide', cursive;
+    font-size: 4rem;
+    text-align: center;
+    text-shadow: 0.11rem 0.11rem 0.11rem;
+}
+
+#saludo{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    padding: 0.25rem;
+}
+
+.texto-pedido{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    padding: 0.25rem 0.25rem 0.25rem 5rem;
+}
+
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+div img{
+    transition: transform 0.3s;
+    width: 100%;
+    cursor: pointer;
+}
+
+div img:hover{
+    transform: scale(1.02);
+}
+
+section img{
+    width: 100%;
+}
+
+section article{
+    transition: box-shadow 0.3s ease;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    background-color: #fff;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    padding: 0.25rem 0;
+    cursor: pointer;
+}
+
+section article h2, section article p{
+    margin: 1rem;
+}
+
+section article:hover{
+    box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.3);
+}
+
+.post-left{
+    width: 450px;
+    max-height: 900px;
+    float: left;
+}
+
+.post-right{
+    width: 450px;
+    max-height: 900px;
+    float: right;
+}
+
+.formularios, textarea{
+    font-family: 'Montserrat', sans-serif;
+    width: 600px;
+    margin: 0 auto;
+}
+
+footer{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #222;
+    padding: 3rem;
+    color: #fff;
+}
+
+footer p{
+    margin: 0;
+    float: left;
+}
